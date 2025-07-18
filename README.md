@@ -4,7 +4,31 @@
 
 This study explored a computational approach to identify genes that can differentiate between severe asthma patients and healthy controls. The authors analyzed the GSE27011 gene expression dataset from the NCBI GEO repository, applying supervised statistical learning, specifically L2-regularized logistic regression, for feature selection and classification.
 
-### Key findings include:
+## Supplementary material
+
+You can download the supplementary material in PDF here: <a href="supplementary_material.pdf">supplementary_material.pdf (802 KB)</a>.
+
+
+### Figures
+
+- **Supplementary Figure S1.** Importance of singular values by total factors (principal components). 
+
+
+- **Supplementary Figure S2.** Expression levels for the top 20 most important genes according to the weight distribution (α) derived from the logistic regression model. Values were normalized by row. Details are available at Supplementary Table S2 and S3.
+
+- **Supplementary Figure S3.** Classification probabilities obtained by Logistic Regression. Scores close to 1: healthy control; scores close to 0: severe asthma. 
+
+
+### Tables 
+
+- **Supplementary Table S1.** Expression levels of the top 10 most important genes by the Information Gain algorithm (HC: Healthy control; SA: Severe asthma)
+
+- **Supplementary table S2.** Expression levels of the top 10 genes that contribute most negatively (Healthy controls class) to the model, according to the logistic regression model
+
+- **Supplementary table S3.** The top 10 genes that contribute most positively (Severe asthma class) to the model, according to the logistic regression model
+ 
+
+## Key findings include:
 
 - **Dataset Handling:** The original dataset (DS1) included severe asthmatics, mild asthmatics, and healthy controls. A sub-dataset (DS2) was created by removing the "mild asthma" class to improve separability, as mild asthma transcription data can overlap with both healthy and severe asthma profiles.
 - **Classification Performance:** Logistic Regression models (Lasso L1 and Ridge L2) were built for both DS1 and DS2. Accuracy for DS1 was around 87-89%, while for DS2, it improved to 91-97%, demonstrating that removing the "mild asthma" class enhanced model performance.
@@ -34,29 +58,7 @@ The study concludes that this computational strategy successfully validated prev
 [Supplementary Tables]: supplementary_tables
 
 
-## Supplementary material
 
-You can download the supplementary material in PDF here: <a href="supplementary_material.pdf">supplementary_material.pdf (802 KB)</a>.
-
-
-### Figures
-
-- **Supplementary Figure S1.** Importance of singular values by total factors (principal components). 
-
-
-- **Supplementary Figure S2.** Expression levels for the top 20 most important genes according to the weight distribution (α) derived from the logistic regression model. Values were normalized by row. Details are available at Supplementary Table S2 and S3.
-
-- **Supplementary Figure S3.** Classification probabilities obtained by Logistic Regression. Scores close to 1: healthy control; scores close to 0: severe asthma. 
-
-
-### Tables 
-
-- **Supplementary Table S1.** Expression levels of the top 10 most important genes by the Information Gain algorithm (HC: Healthy control; SA: Severe asthma)
-
-- **Supplementary table S2.** Expression levels of the top 10 genes that contribute most negatively (Healthy controls class) to the model, according to the logistic regression model
-
-- **Supplementary table S3.** The top 10 genes that contribute most positively (Severe asthma class) to the model, according to the logistic regression model
- 
  
 
 <details>

@@ -57,14 +57,11 @@ The study concludes that this computational strategy successfully validated prev
 [Images]: images
 [Supplementary Tables]: supplementary_tables
 
-
-
- 
-
 <details>
 
 <summary>Repository File Tree</summary>
 
+```
 ┣ 📂Code
 ┃ ┣ 📂machine_learning
 ┃ ┃ ┗ 📜machine_learning.ows
@@ -126,5 +123,6 @@ The study concludes that this computational strategy successfully validated prev
 ┃ ┣ 📜Supplementary Table S3.docx
 ┃ ┗ 📜Supplementary Table S3.pdf
 ┗ 📜artigo_milenna.docx
+```
 
 </details>
